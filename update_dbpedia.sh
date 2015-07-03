@@ -12,7 +12,9 @@ construct {
 where {
     # Graphs
     SERVICE <http://live.dbpedia.org/sparql> {
-        ?name <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Individual_graphs>.
+        ?name <http://purl.org/dc/terms/subject> ?cat.
+        filter (?cat = <http://dbpedia.org/resource/Category:Individual_graphs> ||
+                ?cat = <http://dbpedia.org/resource/Category:Graph_families>)
         ?name ?p ?o;
     }
 
