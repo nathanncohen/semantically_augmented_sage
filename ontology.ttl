@@ -1,0 +1,37 @@
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sage:  <http://www.sagemath.org/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+dbpprop:radius
+    a             rdf:Property;
+    rdfs:label    "radius"@en;
+    sage:method   "radius()".
+
+dbpprop:vertices a rdf:Property ;
+    rdfs:label    "vertices"@en;
+    sage:method   "order()".
+
+dbpprop:girth
+    a             rdf:Property ;
+    rdfs:label    "girth"@en;
+    sage:method   "girth".
+
+dbpprop:automorphisms
+    a             rdf:Property ;
+    sage:method   "automorphism_group().cardinality()";
+    rdfs:label    "automorphisms"@en .
+
+dbpprop:edges
+    a           rdf:Property ;
+    sage:method "size()";
+    rdfs:label  "edges"@en .
+
+dbpprop:diameter
+    sage:method "diameter()";
+    rdfs:label  "diameter"@en.
+
+dbpedia:genus sage:method "genus()".
+dbpedia:chromaticNumber sage:method "chromatic_number()".
+dbpedia:fractionalChromaticIndex sage:method "fractional_chromatic_index()".

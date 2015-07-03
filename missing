@@ -1,0 +1,104 @@
+graphs.Grid2dGraph() 
+graphs.QueenGraph()
+graphs.MycielskiStep()
+graphs.CircularLadderGraph()
+graphs.DegreeSequenceTree()
+graphs.RandomShell()
+graphs.FriendshipGraph() https://en.wikipedia.org/wiki/Friendship_graph
+graphs.IntersectionGraph() https://en.wikipedia.org/wiki/Intersection_graph
+graphs.BishopGraph() 
+graphs.planar_graphs() https://en.wikipedia.org/wiki/Planar_graph
+graphs.fusenes() 
+graphs.BalancedTree()
+graphs.CubeGraph() https://en.wikipedia.org/wiki/Hypercube_graph
+graphs.FibonacciTree()
+graphs.PaleyGraph() https://en.wikipedia.org/wiki/Paley_graph
+graphs.IcosahedralGraph() https://en.wikipedia.org/wiki/Icosahedron
+graphs.FoldedCubeGraph() https://en.wikipedia.org/wiki/Folded_cube_graph
+graphs.DegreeSequence()
+graphs.DegreeSequenceExpected()
+graphs.petersen_family() https://en.wikipedia.org/wiki/Petersen_family
+graphs.KingGraph()
+graphs.KrackhardtKiteGraph() 
+graphs.WorldMap()
+graphs.SousselierGraph() https://en.wikipedia.org/wiki/Sousselier_graph
+graphs.RandomHolmeKim() 
+graphs.CameronGraph() https://en.wikipedia.org/wiki/Cameron_graph
+graphs.HararyGraph()
+graphs.BarbellGraph() 
+graphs.trees() https://en.wikipedia.org/wiki/Tree_(graph_theory)
+graphs.cospectral_graphs() 
+graphs.LCFGraph() https://en.wikipedia.org/wiki/LCF_notation
+graphs.NStarGraph() 
+graphs.DegreeSequenceConfigurationModel()
+graphs.WheelGraph() https://en.wikipedia.org/wiki/Wheel_graph
+graphs.HanoiTowerGraph() 
+graphs.SierpinskiGasketGraph()
+graphs.StarGraph() https://en.wikipedia.org/wiki/Star_(graph_theory)
+graphs.CompleteMultipartiteGraph() 
+graphs.RandomBarabasiAlbert() https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model
+graphs.WienerArayaGraph() https://en.wikipedia.org/wiki/Wiener%E2%80%93Araya_graph
+graphs.OctahedralGraph() https://en.wikipedia.org/wiki/Octahedron
+graphs.AffineOrthogonalPolarGraph()
+graphs.ToroidalGrid2dGraph()
+graphs.NKStarGraph()
+graphs.RandomIntervalGraph()
+graphs.RandomGNM()
+graphs.CycleGraph() https://en.wikipedia.org/wiki/Cycle_graph
+graphs.CompleteBipartiteGraph()  https://en.wikipedia.org/wiki/Complete_bipartite_graph
+graphs.Cell600() https://en.wikipedia.org/wiki/600-cell
+graphs.nauty_geng() 
+graphs.KneserGraph() https://en.wikipedia.org/wiki/Kneser_graph
+graphs.TetrahedralGraph() https://en.wikipedia.org/?title=Tetrahedron
+graphs.HyperStarGraph()
+graphs.ClawGraph()
+graphs.IntervalGraph() https://en.wikipedia.org/wiki/Interval_graph
+graphs.RandomBoundedToleranceGraph()
+graphs.RandomGNP() https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model
+graphs.DorogovtsevGoltsevMendesGraph()
+graphs.RandomTreePowerlaw()
+graphs.HexahedralGraph() 
+graphs.SymplecticGraph()
+graphs.CompleteGraph() https://en.wikipedia.org/wiki/Complete_graph
+graphs.FuzzyBallGraph()
+graphs.GridGraph() 
+graphs.RandomTree()
+graphs.RandomRegular()
+graphs.JohnsonGraph() https://en.wikipedia.org/wiki/Johnson_graph
+graphs.WellsGraph() https://en.wikipedia.org/wiki/Wells_graph
+graphs.Toroidal6RegularGrid2dGraph()
+graphs.MycielskiGraph() https://en.wikipedia.org/wiki/Mycielskian
+graphs.BlanusaSecondSnarkGraph() 
+graphs.SylvesterGraph() https://en.wikipedia.org/wiki/Sylvester_graph
+graphs.RookGraph()
+graphs.RandomLobster()
+graphs.BubbleSortGraph()
+graphs.quadrangulations() 
+graphs.BuckyBall() https://en.wikipedia.org/wiki/Buckminsterfullerene
+graphs.RingedTree() 
+graphs.ToleranceGraph()
+graphs.PathGraph() https://en.wikipedia.org/wiki/Path_(graph_theory)
+graphs.ChessboardGraphGenerator()
+graphs.HouseGraph()
+graphs.DodecahedralGraph() https://en.wikipedia.org/wiki/Dodecahedron
+graphs.KnightGraph()
+graphs.fullerenes() https://en.wikipedia.org/wiki/Fullerene
+graphs.LollipopGraph() 
+graphs.LadderGraph() https://en.wikipedia.org/wiki/Ladder_graph
+graphs.PoussinGraph() https://en.wikipedia.org/wiki/Poussin_graph
+graphs.OddGraph() https://en.wikipedia.org/wiki/Odd_graph
+graphs.DegreeSequenceBipartite()
+graphs.PermutationGraph() https://en.wikipedia.org/wiki/Permutation_graph
+graphs.RandomNewmanWattsStrogatz()
+graphs.Cell120() https://en.wikipedia.org/wiki/120-cell
+graphs.KittellGraph()
+graphs.triangulations() 
+graphs.CirculantGraph() https://en.wikipedia.org/wiki/Circulant_graph
+graphs.OrthogonalPolarGraph()
+graphs.GeneralizedPetersenGraph() https://en.wikipedia.org/wiki/Generalized_Petersen_graph
+graphs.OrthogonalArrayBlockGraph()
+graphs.M22Graph() 
+graphs.RandomToleranceGraph()
+graphs.HouseXGraph()
+graphs.RandomBipartite()
+graphs.FlowerSnark() https://en.wikipedia.org/wiki/Flower_snark

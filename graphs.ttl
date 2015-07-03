@@ -1,0 +1,754 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sage:  <http://www.sagemath.org/#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+dbpedia:Butterfly_graph
+        rdfs:label             "Butterfly graph"@en ;
+        dbpprop:automorphisms  8 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          6 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         1 ;
+        dbpprop:vertices       5 ;
+        sage:build             "graphs.ButterflyGraph()" .
+
+dbpedia:Blanuša_snarks
+        rdfs:label             "Blanuša snarks"@en ;
+        dbpprop:automorphisms  8 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          27 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         4 ;
+        dbpprop:vertices       18 ;
+        sage:build             "graphs.BlanusaFirstSnarkGraph()" .
+
+dbpedia:Clebsch_graph
+        rdfs:label             "Clebsch graph"@en ;
+        dbpprop:automorphisms  1920 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          40 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       16 ;
+        sage:build             "graphs.ClebschGraph()" .
+
+<http://dbpedia.org/resource/Brouwer–Haemers_graph>
+        rdfs:label             "Brouwer–Haemers graph"@en ;
+        dbpprop:automorphisms  233280 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          810 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       81 ;
+        sage:build             "graphs.BrouwerHaemersGraph()" .
+
+<http://dbpedia.org/resource/Biggs–Smith_graph>
+        rdfs:label             "Biggs–Smith graph"@en ;
+        dbpprop:automorphisms  2448 ;
+        dbpprop:diameter       7 ;
+        dbpprop:edges          153 ;
+        dbpprop:girth          9 ;
+        dbpprop:radius         7 ;
+        dbpprop:vertices       102 ;
+        sage:build             "graphs.BiggsSmithGraph()" .
+
+dbpedia:Harborth_graph
+        rdfs:label             "Harborth graph"@en ;
+        dbpprop:automorphisms  4 ;
+        dbpprop:diameter       9 ;
+        dbpprop:edges          104 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         6 ;
+        dbpprop:vertices       52 ;
+        sage:build             "graphs.HarborthGraph()" .
+
+dbpedia:Chvátal_graph
+        rdfs:label             "Chvátal graph"@en ;
+        dbpprop:automorphisms  8 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          24 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       12 ;
+        sage:build             "graphs.ChvatalGraph()" .
+
+<http://dbpedia.org/resource/Ellingham–Horton_graph>
+        rdfs:label             "Ellingham–Horton graph"@en ;
+        dbpprop:automorphisms  16 , 32 ;
+        dbpprop:diameter       13 , 10 ;
+        dbpprop:edges          81 , 117 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         9 , 7 ;
+        dbpprop:vertices       78 , 54 ;
+        sage:build             "graphs.EllinghamHorton78Graph()" , "graphs.EllinghamHorton54Graph()" .
+
+dbpedia:Herschel_graph
+        rdfs:label             "Herschel graph"@en ;
+        dbpprop:automorphisms  12 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          18 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       11 ;
+        sage:build             "graphs.HerschelGraph()" .
+
+<http://dbpedia.org/resource/Tutte–Coxeter_graph>
+        rdfs:label             "Tutte–Coxeter graph"@en ;
+        dbpprop:automorphisms  1440 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          45 ;
+        dbpprop:girth          8 ;
+        dbpprop:radius         4 ;
+        dbpprop:vertices       30 ;
+        sage:build             "graphs.TutteCoxeterGraph()" .
+
+dbpedia:Truncated_icosidodecahedron
+        rdfs:label             "Truncated icosidodecahedron"@en ;
+        dbpprop:automorphisms  120 ;
+        dbpprop:diameter       15 ;
+        dbpprop:edges          180 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         15 ;
+        dbpprop:vertices       120 ;
+        sage:build             "graphs.TruncatedIcosidodecahedralGraph()" .
+
+dbpedia:Ljubljana_graph
+        rdfs:label             "Ljubljana graph"@en ;
+        dbpprop:automorphisms  168 ;
+        dbpprop:diameter       8 ;
+        dbpprop:edges          168 ;
+        dbpprop:girth          10 ;
+        dbpprop:radius         7 ;
+        dbpprop:vertices       112 ;
+        sage:build             "graphs.LjubljanaGraph()" .
+
+dbpedia:Double-star_snark
+        rdfs:label             "Double-star snark"@en ;
+        dbpprop:automorphisms  80 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          45 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         4 ;
+        dbpprop:vertices       30 ;
+        sage:build             "graphs.DoubleStarSnark()" .
+
+dbpedia:Bull_graph  rdfs:label  "Bull graph"@en ;
+        dbpprop:automorphisms  2 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          5 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       5 ;
+        sage:build             "graphs.BullGraph()" .
+
+dbpedia:Grötzsch_graph
+        rdfs:label             "Grötzsch graph"@en ;
+        dbpprop:automorphisms  10 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          20 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       11 ;
+        sage:build             "graphs.GrotzschGraph()" .
+
+dbpedia:Schläfli_graph
+        rdfs:label             "Schläfli graph"@en ;
+        dbpprop:automorphisms  51840 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          216 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       27 ;
+        sage:build             "graphs.SchlaefliGraph()" .
+
+dbpedia:Dürer_graph  rdfs:label  "Dürer graph"@en ;
+        dbpprop:automorphisms  12 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          18 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       12 ;
+        sage:build             "graphs.DurerGraph()" .
+
+dbpedia:Horton_graph  rdfs:label  "Horton graph"@en ;
+        dbpprop:automorphisms  96 ;
+        dbpprop:diameter       10 ;
+        dbpprop:edges          144 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         10 ;
+        dbpprop:vertices       96 ;
+        sage:build             "graphs.HortonGraph()" .
+
+dbpedia:Markström_graph
+        rdfs:label             "Markström graph"@en ;
+        dbpprop:automorphisms  3 ;
+        dbpprop:diameter       6 ;
+        dbpprop:edges          36 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         5 ;
+        dbpprop:vertices       24 ;
+        sage:build             "graphs.MarkstroemGraph()" .
+
+dbpedia:Diamond_graph
+        rdfs:label             "Diamond graph"@en ;
+        dbpprop:automorphisms  4 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          5 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         1 ;
+        dbpprop:vertices       4 ;
+        sage:build             "graphs.DiamondGraph()" .
+
+dbpedia:Truncated_tetrahedron
+        rdfs:label             "Truncated tetrahedron"@en ;
+        dbpprop:automorphisms  24 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          18 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       12 ;
+        sage:build             "graphs.TruncatedTetrahedralGraph()" .
+
+dbpedia:Dejter_graph  rdfs:label  "Dejter graph"@en ;
+        dbpprop:automorphisms  2688 ;
+        dbpprop:diameter       7 ;
+        dbpprop:edges          336 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         7 ;
+        dbpprop:vertices       112 ;
+        sage:build             "graphs.DejterGraph()" .
+
+dbpedia:Livingstone_graph
+        rdfs:label             "Livingstone graph"@en ;
+        dbpprop:automorphisms  175560 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          1463 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         4 ;
+        dbpprop:vertices       266 ;
+        sage:build             "graphs.LivingstoneGraph()" .
+
+dbpedia:Errera_graph  rdfs:label  "Errera graph"@en ;
+        dbpprop:automorphisms  20 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          45 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       17 ;
+        sage:build             "graphs.ErreraGraph()" .
+
+<http://dbpedia.org/resource/Goldner–Harary_graph>
+        rdfs:label             "Goldner–Harary graph"@en ;
+        dbpprop:automorphisms  12 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          27 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       11 ;
+        sage:build             "graphs.GoldnerHararyGraph()" .
+
+<http://dbpedia.org/resource/Tietze's_graph>
+        rdfs:label             "Tietze's graph"@en ;
+        dbpprop:automorphisms  12 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          18 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       12 ;
+        sage:build             "graphs.TietzeGraph()" .
+
+<http://dbpedia.org/resource/Hoffman–Singleton_graph>
+        rdfs:label             "Hoffman–Singleton graph"@en ;
+        dbpprop:automorphisms  252000 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          175 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       50 ;
+        sage:build             "graphs.HoffmanSingletonGraph()" .
+
+dbpedia:Local_McLaughlin_graph
+        rdfs:label             "Local McLaughlin graph"@en ;
+        dbpprop:automorphisms  13063680 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          4536 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       162 ;
+        sage:build             "graphs.LocalMcLaughlinGraph()" .
+
+dbpedia:Perkel_graph  rdfs:label  "Perkel graph"@en ;
+        dbpprop:automorphisms  3420 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          171 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       57 ;
+        sage:build             "graphs.PerkelGraph()" .
+
+dbpedia:Folkman_graph
+        rdfs:label             "Folkman graph"@en ;
+        dbpprop:automorphisms  3840 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          40 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       20 ;
+        sage:build             "graphs.FolkmanGraph()" .
+
+dbpedia:Brinkmann_graph
+        rdfs:label             "Brinkmann graph"@en ;
+        dbpprop:automorphisms  14 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          42 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       21 ;
+        sage:build             "graphs.BrinkmannGraph()" .
+
+dbpedia:Wagner_graph
+	rdfs:label  "Wagner graph"@en ;
+        dbpprop:automorphisms  16 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          12 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       8 ;
+        sage:build             "graphs.WagnerGraph()" .
+
+dbpedia:Order-zero_graph
+        rdfs:label  "Order-zero graph"@en ;
+        sage:build  "graphs.EmptyGraph()" .
+
+dbpedia:Thomsen_graph
+        rdfs:label             "Thomsen graph"@en ;
+        dbpprop:automorphisms  72 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          9 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       6 ;
+        sage:build             "graphs.ThomsenGraph()" .
+
+dbpedia:Holt_graph
+	rdfs:label  "Holt graph"@en ;
+        dbpprop:automorphisms  54 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          54 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       27 ;
+        sage:build             "graphs.HoltGraph()" .
+
+dbpedia:Balaban_10-cage
+        rdfs:label             "Balaban 10-cage"@en ;
+        dbpprop:automorphisms  80 ;
+        dbpprop:diameter       6 ;
+        dbpprop:edges          105 ;
+        dbpprop:girth          10 ;
+        dbpprop:radius         6 ;
+        dbpprop:vertices       70 ;
+        sage:build             "graphs.Balaban10Cage()" .
+
+<http://dbpedia.org/resource/Higman–Sims_graph>
+        rdfs:label             "Higman–Sims graph"@en ;
+        dbpprop:automorphisms  88704000 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          1100 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       100 ;
+        sage:build             "graphs.HigmanSimsGraph()" .
+
+dbpedia:Utility_graph
+        rdfs:label             "Utility graph"@en ;
+        dbpprop:automorphisms  72 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          9 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       6 ;
+        sage:build             "graphs.ThomsenGraph()" .
+
+dbpedia:Dyck_graph
+	rdfs:label  "Dyck graph"@en ;
+        dbpprop:automorphisms  192 ;
+        dbpprop:diameter       5 ;
+        dbpprop:edges          48 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         5 ;
+        dbpprop:vertices       32 ;
+        sage:build             "graphs.DyckGraph()" .
+
+dbpedia:Foster_graph
+	rdfs:label  "Foster graph"@en ;
+        dbpprop:automorphisms  4320 ;
+        dbpprop:diameter       8 ;
+        dbpprop:edges          135 ;
+        dbpprop:girth          10 ;
+        dbpprop:radius         8 ;
+        dbpprop:vertices       90 ;
+        sage:build             "graphs.FosterGraph()" .
+
+dbpedia:F26A_graph
+	rdfs:label  "F26A graph"@en ;
+        dbpprop:automorphisms  78 ;
+        dbpprop:diameter       5 ;
+        dbpprop:edges          39 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         5 ;
+        dbpprop:vertices       26 ;
+        sage:build             "graphs.F26AGraph()" .
+
+dbpedia:Tutte_12-cage
+        rdfs:label             "Tutte 12-cage"@en ;
+        dbpprop:automorphisms  12096 ;
+        dbpprop:diameter       6 ;
+        dbpprop:edges          189 ;
+        dbpprop:girth          12 ;
+        dbpprop:radius         6 ;
+        dbpprop:vertices       126 ;
+        sage:build             "graphs.Tutte12Cage()" .
+
+dbpedia:Pappus_graph  rdfs:label  "Pappus graph"@en ;
+        dbpprop:automorphisms  216 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          27 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         4 ;
+        dbpprop:vertices       18 ;
+        sage:build             "graphs.PappusGraph()" .
+
+dbpedia:Gray_graph  rdfs:label  "Gray graph"@en ;
+        dbpprop:automorphisms  1296 ;
+        dbpprop:diameter       6 ;
+        dbpprop:edges          81 ;
+        dbpprop:girth          8 ;
+        dbpprop:radius         6 ;
+        dbpprop:vertices       54 ;
+        sage:build             "graphs.GrayGraph()" .
+
+<http://dbpedia.org/resource/Möbius–Kantor_graph>
+        rdfs:label             "Möbius–Kantor graph"@en ;
+        dbpprop:automorphisms  96 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          24 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         4 ;
+        dbpprop:vertices       16 ;
+        sage:build             "graphs.MoebiusKantorGraph()" .
+
+dbpedia:Klein_graphs  rdfs:label  "Klein graphs"@en ;
+        dbpprop:automorphisms  336 ;
+        dbpprop:diameter       6 , 3 ;
+        dbpprop:edges          84 ;
+        dbpprop:girth          3 , 7 ;
+        dbpprop:radius         3 , 6 ;
+        dbpprop:vertices       56 , 24 ;
+        sage:build             "graphs.Klein7RegularGraph()" , "graphs.Klein3RegularGraph()" .
+
+dbpedia:Robertson_graph
+        rdfs:label             "Robertson graph"@en ;
+        dbpprop:automorphisms  24 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          38 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       19 ;
+        sage:build             "graphs.RobertsonGraph()" .
+
+dbpedia:Frucht_graph  rdfs:label  "Frucht graph"@en ;
+        dbpprop:automorphisms  1 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          18 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       12 ;
+        sage:build             "graphs.FruchtGraph()" .
+
+dbpedia:Balaban_11-cage
+        rdfs:label             "Balaban 11-cage"@en ;
+        dbpprop:automorphisms  64 ;
+        dbpprop:diameter       8 ;
+        dbpprop:edges          168 ;
+        dbpprop:girth          11 ;
+        dbpprop:radius         6 ;
+        dbpprop:vertices       112 ;
+        sage:build             "graphs.Balaban11Cage()" .
+
+dbpedia:Coxeter_graph
+        rdfs:label             "Coxeter graph"@en ;
+        dbpprop:automorphisms  336 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          42 ;
+        dbpprop:girth          7 ;
+        dbpprop:radius         4 ;
+        dbpprop:vertices       28 ;
+        sage:build             "graphs.CoxeterGraph()" .
+
+dbpedia:Heawood_graph
+        rdfs:label             "Heawood graph"@en ;
+        dbpprop:automorphisms  336 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          21 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       14 ;
+        sage:build             "graphs.HeawoodGraph()" .
+
+<http://dbpedia.org/resource/Hall–Janko_graph>
+        rdfs:label             "Hall–Janko graph"@en ;
+        dbpprop:automorphisms  1209600 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          1800 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       100 ;
+        sage:build             "graphs.HallJankoGraph()" .
+
+dbpedia:Triangle_graph
+        rdfs:label             "Triangle graph"@en ;
+        dbpprop:automorphisms  6 ;
+        dbpprop:diameter       1 ;
+        dbpprop:edges          3 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         1 ;
+        dbpprop:vertices       3 ;
+        sage:build             "graphs.CompleteGraph(3)" .
+
+dbpedia:Meredith_graph
+        rdfs:label             "Meredith graph"@en ;
+        dbpprop:automorphisms  38698352640 ;
+        dbpprop:diameter       8 ;
+        dbpprop:edges          140 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         7 ;
+        dbpprop:vertices       70 ;
+        sage:build             "graphs.MeredithGraph()" .
+
+dbpedia:Harries_graph
+        rdfs:label             "Harries graph"@en ;
+        dbpprop:automorphisms  120 ;
+        dbpprop:diameter       6 ;
+        dbpprop:edges          105 ;
+        dbpprop:girth          10 ;
+        dbpprop:radius         6 ;
+        dbpprop:vertices       70 ;
+        sage:build             "graphs.HarriesGraph()" .
+
+dbpedia:Desargues_graph
+        rdfs:label             "Desargues graph"@en ;
+        dbpprop:automorphisms  240 ;
+        dbpprop:diameter       5 ;
+        dbpprop:edges          30 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         5 ;
+        dbpprop:vertices       20 ;
+        sage:build             "graphs.DesarguesGraph()" .
+
+dbpedia:McLaughlin_graph
+        rdfs:label             "McLaughlin graph"@en ;
+        dbpprop:automorphisms  1796256000 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          15400 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       275 ;
+        sage:build             "graphs.McLaughlinGraph()" .
+
+dbpedia:Watkins_snark
+        rdfs:label             "Watkins snark"@en ;
+        dbpprop:automorphisms  5 ;
+        dbpprop:diameter       7 ;
+        dbpprop:edges          75 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         7 ;
+        dbpprop:vertices       50 ;
+        sage:build             "graphs.WatkinsSnarkGraph()" .
+
+dbpedia:Gosset_graph  rdfs:label  "Gosset graph"@en ;
+        dbpprop:automorphisms  2903040 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          756 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       56 ;
+        sage:build             "graphs.GossetGraph()" .
+
+dbpedia:Nauru_graph  rdfs:label  "Nauru graph"@en ;
+        dbpprop:automorphisms  144 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          36 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         4 ;
+        dbpprop:vertices       24 ;
+        sage:build             "graphs.NauruGraph()" .
+
+dbpedia:Hoffman_graph
+        rdfs:label             "Hoffman graph"@en ;
+        dbpprop:automorphisms  48 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          32 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       16 ;
+        sage:build             "graphs.HoffmanGraph()" .
+
+dbpedia:Moser_spindle
+        rdfs:label             "Moser spindle"@en ;
+        dbpprop:automorphisms  8 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          11 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       7 ;
+        sage:build             "graphs.MoserSpindle()" .
+
+dbpedia:Tutte_graph  rdfs:label  "Tutte graph"@en ;
+        dbpprop:automorphisms  3 ;
+        dbpprop:diameter       8 ;
+        dbpprop:edges          69 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         5 ;
+        dbpprop:vertices       46 ;
+        sage:build             "graphs.TutteGraph()" .
+
+<http://dbpedia.org/resource/Harries–Wong_graph>
+        rdfs:label             "Harries–Wong graph"@en ;
+        dbpprop:automorphisms  24 ;
+        dbpprop:diameter       6 ;
+        dbpprop:edges          105 ;
+        dbpprop:girth          10 ;
+        dbpprop:radius         6 ;
+        dbpprop:vertices       70 ;
+        sage:build             "graphs.HarriesWongGraph()" .
+
+dbpedia:Szekeres_snark
+        rdfs:label             "Szekeres snark"@en ;
+        dbpprop:automorphisms  20 ;
+        dbpprop:diameter       7 ;
+        dbpprop:edges          75 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         6 ;
+        dbpprop:vertices       50 ;
+        sage:build             "graphs.SzekeresSnarkGraph()" .
+
+dbpedia:Gewirtz_graph
+        rdfs:label             "Gewirtz graph"@en ;
+        dbpprop:automorphisms  80640 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          280 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       56 ;
+        sage:build             "graphs.SimsGewirtzGraph()" .
+
+dbpedia:McGee_graph  rdfs:label  "McGee graph"@en ;
+        dbpprop:automorphisms  32 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          36 ;
+        dbpprop:girth          7 ;
+        dbpprop:radius         4 ;
+        dbpprop:vertices       24 ;
+        sage:build             "graphs.McGeeGraph()" .
+
+dbpedia:Petersen_graph
+        rdfs:label             "Petersen graph"@en ;
+        dbpprop:automorphisms  120 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          15 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       10 ;
+        sage:build             "graphs.PetersenGraph()" .
+
+dbpedia:Franklin_graph
+        rdfs:label             "Franklin graph"@en ;
+        dbpprop:automorphisms  48 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          18 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       12 ;
+        sage:build             "graphs.FranklinGraph()" .
+
+dbpedia:Bidiakis_cube
+        rdfs:label             "Bidiakis cube"@en ;
+        dbpprop:automorphisms  8 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          18 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       12 ;
+        sage:build             "graphs.BidiakisCube()" .
+
+dbpedia:Shrikhande_graph
+        rdfs:label             "Shrikhande graph"@en ;
+        dbpprop:automorphisms  192 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          48 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       16 ;
+        sage:build             "graphs.ShrikhandeGraph()" .
+
+<http://dbpedia.org/resource/Triangle_graph> <http://dbpedia.org/resource/chromaticNumber> 3.
+<http://dbpedia.org/resource/Triangle_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Triangle_graph> <http://dbpedia.org/resource/genus> 0.
+<http://dbpedia.org/resource/Diamond_graph> <http://dbpedia.org/resource/chromaticNumber> 3.
+<http://dbpedia.org/resource/Diamond_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Diamond_graph> <http://dbpedia.org/resource/genus> 0.
+<http://dbpedia.org/resource/Bull_graph> <http://dbpedia.org/resource/chromaticNumber> 3.
+<http://dbpedia.org/resource/Bull_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Bull_graph> <http://dbpedia.org/resource/genus> 0.
+<http://dbpedia.org/resource/Butterfly_graph> <http://dbpedia.org/resource/chromaticNumber> 3.
+<http://dbpedia.org/resource/Butterfly_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 4.0.
+<http://dbpedia.org/resource/Butterfly_graph> <http://dbpedia.org/resource/genus> 0.
+<http://dbpedia.org/resource/Thomsen_graph> <http://dbpedia.org/resource/chromaticNumber> 2.
+<http://dbpedia.org/resource/Thomsen_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Thomsen_graph> <http://dbpedia.org/resource/genus> 1.
+<http://dbpedia.org/resource/Utility_graph> <http://dbpedia.org/resource/chromaticNumber> 2.
+<http://dbpedia.org/resource/Utility_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Utility_graph> <http://dbpedia.org/resource/genus> 1.
+<http://dbpedia.org/resource/Moser_spindle> <http://dbpedia.org/resource/chromaticNumber> 4.
+<http://dbpedia.org/resource/Moser_spindle> <http://dbpedia.org/resource/fractionalChromaticIndex> 4.0.
+<http://dbpedia.org/resource/Moser_spindle> <http://dbpedia.org/resource/genus> 0.
+<http://dbpedia.org/resource/Wagner_graph> <http://dbpedia.org/resource/chromaticNumber> 3.
+<http://dbpedia.org/resource/Wagner_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Wagner_graph> <http://dbpedia.org/resource/genus> 1.
+<http://dbpedia.org/resource/Petersen_graph> <http://dbpedia.org/resource/chromaticNumber> 3.
+<http://dbpedia.org/resource/Petersen_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Petersen_graph> <http://dbpedia.org/resource/genus> 1.
+<http://dbpedia.org/resource/Goldner–Harary_graph> <http://dbpedia.org/resource/chromaticNumber> 4.
+<http://dbpedia.org/resource/Goldner–Harary_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 8.0.
+<http://dbpedia.org/resource/Goldner–Harary_graph> <http://dbpedia.org/resource/genus> 0.
+<http://dbpedia.org/resource/Grötzsch_graph> <http://dbpedia.org/resource/chromaticNumber> 4.
+<http://dbpedia.org/resource/Grötzsch_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 5.0.
+<http://dbpedia.org/resource/Grötzsch_graph> <http://dbpedia.org/resource/genus> 1.
+<http://dbpedia.org/resource/Herschel_graph> <http://dbpedia.org/resource/chromaticNumber> 2.
+<http://dbpedia.org/resource/Herschel_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 4.0.
+<http://dbpedia.org/resource/Herschel_graph> <http://dbpedia.org/resource/genus> 0.
+<http://dbpedia.org/resource/Bidiakis_cube> <http://dbpedia.org/resource/chromaticNumber> 3.
+<http://dbpedia.org/resource/Bidiakis_cube> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Bidiakis_cube> <http://dbpedia.org/resource/genus> 0.
+<http://dbpedia.org/resource/Chvátal_graph> <http://dbpedia.org/resource/chromaticNumber> 4.
+<http://dbpedia.org/resource/Chvátal_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 4.0.
+<http://dbpedia.org/resource/Chvátal_graph> <http://dbpedia.org/resource/genus> 2.
+<http://dbpedia.org/resource/Dürer_graph> <http://dbpedia.org/resource/chromaticNumber> 3.
+<http://dbpedia.org/resource/Dürer_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Dürer_graph> <http://dbpedia.org/resource/genus> 0.
+<http://dbpedia.org/resource/Franklin_graph> <http://dbpedia.org/resource/chromaticNumber> 2.
+<http://dbpedia.org/resource/Franklin_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Franklin_graph> <http://dbpedia.org/resource/genus> 1.
+<http://dbpedia.org/resource/Frucht_graph> <http://dbpedia.org/resource/chromaticNumber> 3.
+<http://dbpedia.org/resource/Frucht_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Frucht_graph> <http://dbpedia.org/resource/genus> 0.
+<http://dbpedia.org/resource/Tietze's_graph> <http://dbpedia.org/resource/chromaticNumber> 3.
+<http://dbpedia.org/resource/Tietze's_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Tietze's_graph> <http://dbpedia.org/resource/genus> 1.
+<http://dbpedia.org/resource/Heawood_graph> <http://dbpedia.org/resource/chromaticNumber> 2.
+<http://dbpedia.org/resource/Heawood_graph> <http://dbpedia.org/resource/fractionalChromaticIndex> 3.0.
+<http://dbpedia.org/resource/Heawood_graph> <http://dbpedia.org/resource/genus> 1.
+<http://dbpedia.org/resource/Clebsch_graph> <http://dbpedia.org/resource/chromaticNumber> 4.
