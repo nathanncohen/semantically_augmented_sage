@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# This script compares the local data with the data from dbpedia.rdf
+# This script compares the local data with the data from dbpedia.ttl
 #
 # It is meant to tell if anything from one side should be included in the other,
 # and if there is some inconsistency somewhere between the databases.
@@ -18,7 +18,7 @@ PREFIX : <.>
 select distinct ?l
 where {
 
-  GRAPH <$PWD/dbpedia.rdf> {
+  GRAPH <$PWD/dbpedia.ttl> {
     ?name <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Individual_graphs>.
     ?name rdfs:label ?l.
     filter (lang(?l) = "en")
@@ -29,7 +29,7 @@ where {
   { ?oo rdfs:label ?l} # hack to avoid utf8 problem
 } ORDER BY ?name
 EOF
-arq --graph=graphs.ttl --namedGraph=$PWD/dbpedia.rdf --query=/tmp/q
+arq --graph=graphs.ttl --namedGraph=$PWD/dbpedia.ttl --query=/tmp/q
 
 ####################################################
 # Local graphs not in dbpedia (category problem) ? #
@@ -45,11 +45,11 @@ where {
   ?name rdfs:label ?l
 
   filter not exists {
-      GRAPH <$PWD/dbpedia.rdf> { ?namee ?p ?l }
+      GRAPH <$PWD/dbpedia.ttl> { ?namee ?p ?l }
   }
 } ORDER BY ?name
 EOF
-arq --graph=graphs.ttl --namedGraph=$PWD/dbpedia.rdf --query=/tmp/q
+arq --graph=graphs.ttl --namedGraph=$PWD/dbpedia.ttl --query=/tmp/q
 
 ###############################
 # Suggestion to add in the db #
@@ -63,7 +63,7 @@ prefix dcterms: <http://purl.org/dc/terms/>
 select distinct ?s ?p ?o
 where {
   # A dbpedia relation
-  GRAPH <$PWD/dbpedia.rdf> {
+  GRAPH <$PWD/dbpedia.ttl> {
     ?s ?p ?o
   }
 
@@ -92,7 +92,7 @@ where {
 
 } ORDER BY ?s
 EOF
-arq --graph=$PWD/graphs.ttl --namedGraph=$PWD/ontology.ttl --namedGraph=$PWD/dbpedia.rdf --query=/tmp/q
+arq --graph=$PWD/graphs.ttl --namedGraph=$PWD/ontology.ttl --namedGraph=$PWD/dbpedia.ttl --query=/tmp/q
 
 ##################
 # dbpedia errors #
@@ -110,14 +110,14 @@ where {
   MINUS
   {?s rdfs:label ?o}
 
-  GRAPH <$PWD/dbpedia.rdf> {
+  GRAPH <$PWD/dbpedia.ttl> {
     ?s ?p ?oo
     filter not exists { ?s ?p ?o }
   }
 
 } order by ?s
 EOF
-arq --graph=graphs.ttl --namedgraph=$PWD/dbpedia.rdf --query=/tmp/q
+arq --graph=graphs.ttl --namedgraph=$PWD/dbpedia.ttl --query=/tmp/q
 
 ##########################
 # missing values dbpedia #
@@ -135,10 +135,10 @@ where {
   MINUS
   {?s sage:build ?o}
 
-  GRAPH <$PWD/dbpedia.rdf> {
+  GRAPH <$PWD/dbpedia.ttl> {
     filter not exists { ?s ?p ?oo }
   }
 
 } order by ?s
 EOF
-arq --graph=graphs.ttl --namedgraph=dbpedia.rdf --query=/tmp/q
+arq --graph=graphs.ttl --namedgraph=dbpedia.ttl --query=/tmp/q
