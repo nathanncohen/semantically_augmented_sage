@@ -37,5 +37,4 @@ dbpedia:genus sage:method "genus()".
 dbpedia:chromaticNumber sage:method "chromatic_number()".
 dbpedia:fractionalChromaticIndex sage:method "fractional_chromatic_index()".
 
-
-dcterms:subject a rdf:Property ;
+dcterms:subject a rdf:Property.
