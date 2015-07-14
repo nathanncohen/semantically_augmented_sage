@@ -41,6 +41,10 @@ logging.getLogger().setLevel(logging.ERROR)
 if 'local_data' not in locals():
     local_data = rdflib.Graph()
 
+if 'translation_db' not in locals():
+    translation_db=rdflib.Graph()
+    translation_db.parse("translation.ttl",format="n3")
+
 rdfs    = Namespace("http://www.w3.org/2000/01/rdf-schema#")
 sagens  = Namespace("http://www.sagemath.org/#")
 dbpedia = Namespace("http://dbpedia.org/resource/")
@@ -91,7 +95,7 @@ def get_category_elements(URI):
        ?s ?p ?o.
        }
     where {
-       ?s dcterms:subject <URI>.
+       ?s dcterms:subject/skos:broader* <URI>.
        ?s ?p ?o.
      }
     """.replace("URI",URI))
@@ -102,11 +106,11 @@ def get_category_subcategories(URI):
     """
     add_to_local_db(r"""
     construct {
-       ?s <http://www.w3.org/2004/02/skos/core#broader> <URI>.
+       ?s skos:broader <URI>.
        ?s ?p ?o.
        }
     where {
-       ?s <http://www.w3.org/2004/02/skos/core#broader> <URI>.
+       ?s skos:broader <URI>.
        ?s ?p ?o.
      }
     """.replace("URI",URI))
@@ -136,6 +140,9 @@ class DbpediaEntry:
             p = p.encode('ascii','ignore').split('/')[-1].split('#')[-1]
             d[p].append(o)
             setattr(self,p,self._return_function(p))
+
+        for _,_,o in translation_db.triples((self._uriref,sagens.build,None)):
+            setattr(self,'sage', lambda : eval(o))
 
         self._d = d
         self._is_category = ((self._uriref, rdf.type, skos.Concept)
@@ -191,15 +198,5 @@ class DbpediaEntry:
         get_category_subcategories(self._uriref.toPython())
         return [DbpediaEntry(s.toPython()) for s,_,_ in
                 local_data.triples((None,skos.broader,self._uriref))]
-
-    def sage(self):
-        r"""
-        Return the Sage function associated with self (if known/available).
-        """
-        translation_db=rdflib.Graph()
-        translation_db.parse("graphs.ttl",format="n3")
-        for _,_,o in translation_db.triples((self._uriref,sagens.build,None)):
-            return eval(o)
-        raise RuntimeError("No translation found")
 
 g = DbpediaEntry("http://dbpedia.org/resource/Petersen_graph")

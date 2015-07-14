@@ -1,0 +1,324 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sage:  <http://www.sagemath.org/#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+dbpedia:Butterfly_graph
+    sage:build    "graphs.ButterflyGraph" .
+
+dbpedia:Blanuša_snarks
+    sage:build    "graphs.BlanusaFirstSnarkGraph" .
+
+dbpedia:Clebsch_graph
+    sage:build    "graphs.ClebschGraph" .
+
+dbpedia:Intersection_graph
+    sage:build    "graphs.IntersectionGraph" .
+
+<http://dbpedia.org/resource/Brouwer–Haemers_graph>
+    sage:build    "graphs.BrouwerHaemersGraph" .
+
+<http://dbpedia.org/resource/Biggs–Smith_graph>
+    sage:build    "graphs.BiggsSmithGraph" .
+
+dbpedia:Harborth_graph
+    sage:build    "graphs.HarborthGraph" .
+
+<http://dbpedia.org/resource/Barab%C3%A1si%E2%80%93Albert_model>
+    sage:build    "graphs.RandomBarabasiAlbert" .
+
+dbpedia:Chvátal_graph
+    sage:build    "graphs.ChvatalGraph" .
+
+<http://dbpedia.org/resource/Ellingham–Horton_graph>
+    sage:build    "graphs.EllinghamHorton78Graph" , "graphs.EllinghamHorton54Graph" .
+
+dbpedia:Herschel_graph
+    sage:build    "graphs.HerschelGraph" .
+
+dbpedia:Circulant_graph
+    sage:build    "graphs.CirculantGraph" .
+
+<http://dbpedia.org/resource/Tutte–Coxeter_graph>
+    sage:build    "graphs.TutteCoxeterGraph" .
+
+dbpedia:Odd_graph
+    sage:build    "graphs.OddGraph" .
+
+dbpedia:Bull_graph
+    sage:build    "graphs.BullGraph" .
+
+dbpedia:Truncated_icosidodecahedron
+    sage:build    "graphs.TruncatedIcosidodecahedralGraph" .
+
+dbpedia:Ljubljana_graph
+    sage:build    "graphs.LjubljanaGraph" .
+
+dbpedia:Double-star_snark
+    sage:build    "graphs.DoubleStarSnark" .
+
+dbpedia:Generalized_Petersen_graph
+    sage:build    "graphs.GeneralizedPetersenGraph" .
+
+dbpedia:Grötzsch_graph
+    sage:build    "graphs.GrotzschGraph" .
+
+dbpedia:Schläfli_graph
+    sage:build    "graphs.SchlaefliGraph" .
+
+dbpedia:Dürer_graph
+    sage:build    "graphs.DurerGraph" .
+
+dbpedia:120-cell
+    sage:build    "graphs.Cell120" .
+
+dbpedia:Horton_graph
+    sage:build    "graphs.HortonGraph" .
+
+dbpedia:Interval_graph
+    sage:build    "graphs.IntervalGraph" .
+
+dbpedia:Diamond_graph
+    sage:build    "graphs.DiamondGraph" .
+
+dbpedia:Markström_graph
+    sage:build    "graphs.MarkstroemGraph" .
+
+dbpedia:Truncated_tetrahedron
+    sage:build    "graphs.TruncatedTetrahedralGraph" .
+
+dbpedia:Dejter_graph
+    sage:build    "graphs.DejterGraph" .
+
+dbpedia:Livingstone_graph
+    sage:build    "graphs.LivingstoneGraph" .
+
+dbpedia:Errera_graph
+    sage:build    "graphs.ErreraGraph" .
+
+<http://dbpedia.org/resource/Goldner–Harary_graph>
+    sage:build    "graphs.GoldnerHararyGraph" .
+
+<http://dbpedia.org/resource/Tietze's_graph>
+    sage:build    "graphs.TietzeGraph" .
+
+<http://dbpedia.org/resource/Hoffman–Singleton_graph>
+    sage:build    "graphs.HoffmanSingletonGraph" .
+
+dbpedia:Local_McLaughlin_graph
+    sage:build    "graphs.LocalMcLaughlinGraph" .
+
+dbpedia:Perkel_graph
+    sage:build    "graphs.PerkelGraph" .
+
+dbpedia:Folkman_graph
+    sage:build    "graphs.FolkmanGraph" .
+
+dbpedia:Brinkmann_graph
+    sage:build    "graphs.BrinkmannGraph" .
+
+dbpedia:Flower_snark
+    sage:build    "graphs.FlowerSnark" .
+
+dbpedia:Octahedron
+    sage:build    "graphs.OctahedralGraph" .
+
+dbpedia:Wagner_graph
+    sage:build    "graphs.WagnerGraph" .
+
+dbpedia:LCF_notation
+    sage:build    "graphs.LCFGraph" .
+
+dbpedia:Order-zero_graph
+    sage:build    "graphs.EmptyGraph" .
+
+dbpedia:Thomsen_graph
+    sage:build    "graphs.ThomsenGraph" .
+
+dbpedia:Holt_graph
+    sage:build    "graphs.HoltGraph" .
+
+dbpedia:Kneser_graph
+    sage:build    "graphs.KneserGraph" .
+
+<http://dbpedia.org/resource/Erd%C5%91s%E2%80%93R%C3%A9nyi_model>
+    sage:build    "graphs.RandomGNP" .
+
+dbpedia:Balaban_10-cage
+    sage:build    "graphs.Balaban10Cage" .
+
+<http://dbpedia.org/resource/Higman–Sims_graph>
+    sage:build    "graphs.HigmanSimsGraph" .
+
+dbpedia:Utility_graph
+    sage:build    "graphs.ThomsenGraph" .
+
+dbpedia:Dyck_graph
+    sage:build    "graphs.DyckGraph" .
+
+dbpedia:Paley_graph
+    sage:build    "graphs.PaleyGraph" .
+
+dbpedia:Foster_graph
+    sage:build    "graphs.FosterGraph" .
+
+dbpedia:F26A_graph
+    sage:build    "graphs.F26AGraph" .
+
+dbpedia:Dodecahedron
+    sage:build    "graphs.DodecahedralGraph" .
+
+dbpedia:Ladder_graph
+    sage:build    "graphs.LadderGraph" .
+
+dbpedia:Folded_cube_graph
+    sage:build    "graphs.FoldedCubeGraph" .
+
+dbpedia:Tutte_12-cage
+    sage:build    "graphs.Tutte12Cage" .
+
+dbpedia:Cycle_graph
+    sage:build    "graphs.CycleGraph" .
+
+dbpedia:Friendship_graph
+    sage:build    "graphs.FriendshipGraph" .
+
+dbpedia:Buckminsterfullerene
+    sage:build    "graphs.BuckyBall" .
+
+dbpedia:Petersen_family
+    sage:build    "graphs.petersen_family" .
+
+dbpedia:Pappus_graph
+    sage:build    "graphs.PappusGraph" .
+
+dbpedia:Wheel_graph
+    sage:build    "graphs.WheelGraph" .
+
+dbpedia:Gray_graph
+    sage:build    "graphs.GrayGraph" .
+
+<http://dbpedia.org/resource/Möbius–Kantor_graph>
+    sage:build    "graphs.MoebiusKantorGraph" .
+
+dbpedia:Planar_graph
+    sage:build    "graphs.planar_graphs" .
+
+dbpedia:Mycielskian
+    sage:build    "graphs.MycielskiGraph" .
+
+dbpedia:Klein_graphs
+    sage:build    "graphs.Klein3RegularGraph" , "graphs.Klein7RegularGraph" .
+
+dbpedia:Robertson_graph
+    sage:build    "graphs.RobertsonGraph" .
+
+<http://dbpedia.org/resource/Star_(graph_theory)>
+    sage:build    "graphs.StarGraph" .
+
+dbpedia:Frucht_graph
+    sage:build    "graphs.FruchtGraph" .
+
+dbpedia:Balaban_11-cage
+    sage:build    "graphs.Balaban11Cage" .
+
+dbpedia:Coxeter_graph
+    sage:build    "graphs.CoxeterGraph" .
+
+dbpedia:Heawood_graph
+    sage:build    "graphs.HeawoodGraph" .
+
+dbpedia:Complete_graph
+    sage:build    "graphs.CompleteGraph" .
+
+<http://dbpedia.org/resource/Hall–Janko_graph>
+    sage:build    "graphs.HallJankoGraph" .
+
+dbpedia:Hypercube_graph
+    sage:build    "graphs.CubeGraph" .
+
+dbpedia:McLaughlin_graph
+    sage:build    "graphs.McLaughlinGraph" .
+
+dbpedia:Harries_graph
+    sage:build    "graphs.HarriesGraph" .
+
+dbpedia:Desargues_graph
+    sage:build    "graphs.DesarguesGraph" .
+
+dbpedia:Meredith_graph
+    sage:build    "graphs.MeredithGraph" .
+
+dbpedia:Triangle_graph
+    sage:build    "graphs.CompleteGraph(3)" .
+
+dbpedia:Watkins_snark
+    sage:build    "graphs.WatkinsSnarkGraph" .
+
+dbpedia:Gosset_graph
+    sage:build    "graphs.GossetGraph" .
+
+dbpedia:Nauru_graph
+    sage:build    "graphs.NauruGraph" .
+
+dbpedia:Icosahedron
+    sage:build    "graphs.IcosahedralGraph" .
+
+dbpedia:Johnson_graph
+    sage:build    "graphs.JohnsonGraph" .
+
+<http://dbpedia.org/resource/Path_(graph_theory)>
+    sage:build    "graphs.PathGraph" .
+
+dbpedia:Hoffman_graph
+    sage:build    "graphs.HoffmanGraph" .
+
+dbpedia:Moser_spindle
+    sage:build    "graphs.MoserSpindle" .
+
+dbpedia:Tetrahedron
+    sage:build    "graphs.TetrahedralGraph" .
+
+dbpedia:Tutte_graph
+    sage:build    "graphs.TutteGraph" .
+
+dbpedia:Permutation_graph
+    sage:build    "graphs.PermutationGraph" .
+
+<http://dbpedia.org/resource/Harries–Wong_graph>
+    sage:build    "graphs.HarriesWongGraph" .
+
+dbpedia:Szekeres_snark
+    sage:build    "graphs.SzekeresSnarkGraph" .
+
+dbpedia:Gewirtz_graph
+    sage:build    "graphs.SimsGewirtzGraph" .
+
+dbpedia:Fullerene
+    sage:build    "graphs.fullerenes" .
+
+dbpedia:Complete_bipartite_graph
+    sage:build    "graphs.CompleteBipartiteGraph" .
+
+dbpedia:600-cell
+    sage:build    "graphs.Cell600" .
+
+dbpedia:McGee_graph
+    sage:build    "graphs.McGeeGraph" .
+
+dbpedia:Petersen_graph
+    sage:build    "graphs.PetersenGraph" .
+
+dbpedia:Franklin_graph
+    sage:build    "graphs.FranklinGraph" .
+
+<http://dbpedia.org/resource/Tree_(graph_theory)>
+    sage:build    "graphs.trees" .
+
+dbpedia:Bidiakis_cube
+    sage:build    "graphs.BidiakisCube" .
+
+dbpedia:Shrikhande_graph
+    sage:build    "graphs.ShrikhandeGraph" .
