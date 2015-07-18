@@ -334,3 +334,24 @@ dbpedia:Sylvester_graph
 
 <http://dbpedia.org/resource/Chang_graphs>
     sage:function    "graphs.chang_graphs" .
+
+<http://dbpedia.org/property/girth>
+    sage:function    "sage.graphs.generic_graph.GenericGraph.girth".
+
+<http://dbpedia.org/property/diameter>
+    sage:function    "sage.graphs.generic_graph.GenericGraph.diameter".
+
+<http://dbpedia.org/property/edges>
+    sage:function    "sage.graphs.generic_graph.GenericGraph.size".
+
+<http://dbpedia.org/property/radius>
+    sage:function    "sage.graphs.generic_graph.GenericGraph.radius".
+
+<http://dbpedia.org/property/vertices>
+    sage:function    "sage.graphs.generic_graph.GenericGraph.order".
+
+<http://dbpedia.org/property/chromaticNumber>
+    sage:function    "sage.graphs.graph.Graph.chromatic_number".
+
+<http://dbpedia.org/property/genus>
+    sage:function    "sage.graphs.graph.Graph.genus".
