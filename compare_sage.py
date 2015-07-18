@@ -16,29 +16,15 @@ def individual_graphs():
         defaults = args.defaults
         nargs = len(args.args)
         if (nargs == 0 or (defaults is not None and args.defaults.count(None) == nargs)):
-            l.append("graphs."+m_name+"()")
+            l.append("graphs."+m_name)
 
-    l.remove("graphs.line_graph_forbidden_subgraphs()")
+    l.remove("graphs.line_graph_forbidden_subgraphs")
     return l
 
-filename = "graphs.ttl"
-
 import rdflib
-import rdfextras
-rdfextras.registerplugins() # so we can Graph.query()
-
-# All entries in the database with a sage:build predicate.
-g=rdflib.Graph()
-g.parse(filename,format="n3")
-results = g.query("""
-SELECT ?cmd
-WHERE {
-?g sage:build ?cmd.
-}
-ORDER BY (?g)
-""").bindings
+translation_db=rdflib.Graph()
+translation_db.parse("translation.ttl",format="n3")
 
 print "==> missing from the db"
-a=[r['cmd'] for r in results]
-for x in set(individual_graphs()).difference(str(r['cmd']) for r in results):
+for x in set(individual_graphs()).difference(str(x) for x in translation_db.objects()):
     print x

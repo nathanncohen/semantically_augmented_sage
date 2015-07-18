@@ -13,14 +13,11 @@ dbpedia:Butterfly_graph
         dbpprop:girth            3 ;
         dbpprop:radius           1 ;
         dbpprop:vertices         5 ;
-        dbpedia:chromaticNumber  3 ;
-        dbpedia:fractionalChromaticIndex
-                4.0 ;
-        dbpedia:genus            0 ;
+        dbpprop:chromaticNumber  3 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.ButterflyGraph()" .
 
-dbpedia:Blanuša_snarks
+<http://dbpedia.org/resource/Blanu%C5%A1a_snarks>
         rdfs:label             "Blanuša snarks"@en ;
         dbpprop:automorphisms  8 ;
         dbpprop:diameter       4 ;
@@ -39,14 +36,14 @@ dbpedia:Clebsch_graph
         dbpprop:girth            4 ;
         dbpprop:radius           2 ;
         dbpprop:vertices         16 ;
-        dbpedia:chromaticNumber  4 ;
+        dbpprop:chromaticNumber  4 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.ClebschGraph()" .
 
 dbpedia:Intersection_graph
         sage:build  "graphs.IntersectionGraph()" .
 
-<http://dbpedia.org/resource/Brouwer–Haemers_graph>
+<http://dbpedia.org/resource/Brouwer%E2%80%93Haemers_graph>
         rdfs:label             "Brouwer–Haemers graph"@en ;
         dbpprop:automorphisms  233280 ;
         dbpprop:diameter       2 ;
@@ -68,17 +65,6 @@ dbpedia:Intersection_graph
         dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build             "graphs.BiggsSmithGraph()" .
 
-dbpedia:Harborth_graph
-        rdfs:label             "Harborth graph"@en ;
-        dbpprop:automorphisms  4 ;
-        dbpprop:diameter       9 ;
-        dbpprop:edges          104 ;
-        dbpprop:girth          3 ;
-        dbpprop:radius         6 ;
-        dbpprop:vertices       52 ;
-        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
-        sage:build             "graphs.HarborthGraph()" .
-
 <http://dbpedia.org/resource/Barab%C3%A1si%E2%80%93Albert_model>
         sage:build  "graphs.RandomBarabasiAlbert()" .
 
@@ -90,10 +76,8 @@ dbpedia:Chvátal_graph
         dbpprop:girth            4 ;
         dbpprop:radius           2 ;
         dbpprop:vertices         12 ;
-        dbpedia:chromaticNumber  4 ;
-        dbpedia:fractionalChromaticIndex
-                4.0 ;
-        dbpedia:genus            2 ;
+        dbpprop:chromaticNumber  4 ;
+	dbpprop:genus            2 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.ChvatalGraph()" .
 
@@ -115,17 +99,14 @@ dbpedia:Herschel_graph
         dbpprop:girth            4 ;
         dbpprop:radius           3 ;
         dbpprop:vertices         11 ;
-        dbpedia:chromaticNumber  2 ;
-        dbpedia:fractionalChromaticIndex
-                4.0 ;
-        dbpedia:genus            0 ;
+        dbpprop:chromaticNumber  2 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.HerschelGraph()" .
 
 dbpedia:Circulant_graph
         sage:build  "graphs.CirculantGraph()" .
 
-<http://dbpedia.org/resource/Tutte–Coxeter_graph>
+<http://dbpedia.org/resource/Tutte%E2%80%93Coxeter_graph>
         rdfs:label             "Tutte–Coxeter graph"@en ;
         dbpprop:automorphisms  1440 ;
         dbpprop:diameter       4 ;
@@ -178,10 +159,7 @@ dbpedia:Bull_graph  rdfs:label   "Bull graph"@en ;
         dbpprop:girth            3 ;
         dbpprop:radius           2 ;
         dbpprop:vertices         5 ;
-        dbpedia:chromaticNumber  3 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            0 ;
+        dbpprop:chromaticNumber  3 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.BullGraph()" .
 
@@ -196,14 +174,12 @@ dbpedia:Grötzsch_graph
         dbpprop:girth            4 ;
         dbpprop:radius           2 ;
         dbpprop:vertices         11 ;
-        dbpedia:chromaticNumber  4 ;
-        dbpedia:fractionalChromaticIndex
-                5.0 ;
-        dbpedia:genus            1 ;
+        dbpprop:chromaticNumber  4 ;
+	dbpprop:genus            1 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.GrotzschGraph()" .
 
-dbpedia:Schläfli_graph
+<http://dbpedia.org/resource/Schl%C3%A4fli_graph>
         rdfs:label             "Schläfli graph"@en ;
         dbpprop:automorphisms  51840 ;
         dbpprop:diameter       2 ;
@@ -214,17 +190,14 @@ dbpedia:Schläfli_graph
         dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build             "graphs.SchlaefliGraph()" .
 
-dbpedia:Dürer_graph  rdfs:label  "Dürer graph"@en ;
+<http://dbpedia.org/resource/D%C3%BCrer_graph>  rdfs:label  "Dürer graph"@en ;
         dbpprop:automorphisms    12 ;
         dbpprop:diameter         4 ;
         dbpprop:edges            18 ;
         dbpprop:girth            3 ;
         dbpprop:radius           3 ;
         dbpprop:vertices         12 ;
-        dbpedia:chromaticNumber  3 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            0 ;
+        dbpprop:chromaticNumber  3 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.DurerGraph()" .
 
@@ -251,23 +224,9 @@ dbpedia:Diamond_graph
         dbpprop:girth            3 ;
         dbpprop:radius           1 ;
         dbpprop:vertices         4 ;
-        dbpedia:chromaticNumber  3 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            0 ;
+        dbpprop:chromaticNumber  3 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.DiamondGraph()" .
-
-dbpedia:Markström_graph
-        rdfs:label             "Markström graph"@en ;
-        dbpprop:automorphisms  3 ;
-        dbpprop:diameter       6 ;
-        dbpprop:edges          36 ;
-        dbpprop:girth          3 ;
-        dbpprop:radius         5 ;
-        dbpprop:vertices       24 ;
-        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
-        sage:build             "graphs.MarkstroemGraph()" .
 
 dbpedia:Truncated_tetrahedron
         rdfs:label             "Truncated tetrahedron"@en ;
@@ -319,10 +278,7 @@ dbpedia:Errera_graph  rdfs:label  "Errera graph"@en ;
         dbpprop:girth            3 ;
         dbpprop:radius           2 ;
         dbpprop:vertices         11 ;
-        dbpedia:chromaticNumber  4 ;
-        dbpedia:fractionalChromaticIndex
-                8.0 ;
-        dbpedia:genus            0 ;
+        dbpprop:chromaticNumber  4 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.GoldnerHararyGraph()" .
 
@@ -334,10 +290,8 @@ dbpedia:Errera_graph  rdfs:label  "Errera graph"@en ;
         dbpprop:girth            3 ;
         dbpprop:radius           3 ;
         dbpprop:vertices         12 ;
-        dbpedia:chromaticNumber  3 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            1 ;
+        dbpprop:chromaticNumber  3 ;
+	dbpprop:genus            1 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.TietzeGraph()" .
 
@@ -406,34 +360,12 @@ dbpedia:Wagner_graph  rdfs:label  "Wagner graph"@en ;
         dbpprop:girth            4 ;
         dbpprop:radius           2 ;
         dbpprop:vertices         8 ;
-        dbpedia:chromaticNumber  3 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            1 ;
+        dbpprop:chromaticNumber  3 ;
+	dbpprop:genus            1 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.WagnerGraph()" .
 
 dbpedia:LCF_notation  sage:build  "graphs.LCFGraph()" .
-
-dbpedia:Order-zero_graph
-        rdfs:label       "Order-zero graph"@en ;
-        dcterms:subject  <http://dbpedia.org/resource/Category:Individual_graphs> ;
-        sage:build       "graphs.EmptyGraph()" .
-
-dbpedia:Thomsen_graph
-        rdfs:label               "Thomsen graph"@en ;
-        dbpprop:automorphisms    72 ;
-        dbpprop:diameter         2 ;
-        dbpprop:edges            9 ;
-        dbpprop:girth            4 ;
-        dbpprop:radius           2 ;
-        dbpprop:vertices         6 ;
-        dbpedia:chromaticNumber  2 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            1 ;
-        dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
-        sage:build               "graphs.ThomsenGraph()" .
 
 dbpedia:Holt_graph  rdfs:label  "Holt graph"@en ;
         dbpprop:automorphisms  54 ;
@@ -471,21 +403,6 @@ dbpedia:Balaban_10-cage
         dbpprop:vertices       70 ;
         dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build             "graphs.Balaban10Cage()" .
-
-dbpedia:Utility_graph
-        rdfs:label               "Utility graph"@en ;
-        dbpprop:automorphisms    72 ;
-        dbpprop:diameter         2 ;
-        dbpprop:edges            9 ;
-        dbpprop:girth            4 ;
-        dbpprop:radius           2 ;
-        dbpprop:vertices         6 ;
-        dbpedia:chromaticNumber  2 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            1 ;
-        dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
-        sage:build               "graphs.ThomsenGraph()" .
 
 dbpedia:Dyck_graph  rdfs:label  "Dyck graph"@en ;
         dbpprop:automorphisms  192 ;
@@ -615,10 +532,7 @@ dbpedia:Frucht_graph  rdfs:label  "Frucht graph"@en ;
         dbpprop:girth            3 ;
         dbpprop:radius           3 ;
         dbpprop:vertices         12 ;
-        dbpedia:chromaticNumber  3 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            0 ;
+        dbpprop:chromaticNumber  3 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.FruchtGraph()" .
 
@@ -652,14 +566,12 @@ dbpedia:Heawood_graph
         dbpprop:girth            6 ;
         dbpprop:radius           3 ;
         dbpprop:vertices         14 ;
-        dbpedia:chromaticNumber  2 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            1 ;
+        dbpprop:chromaticNumber  2 ;
+	dbpprop:genus            1 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.HeawoodGraph()" .
 
-<http://dbpedia.org/resource/Hall–Janko_graph>
+<http://dbpedia.org/resource/Hall%E2%80%93Janko_graph>
         rdfs:label             "Hall–Janko graph"@en ;
         dbpprop:automorphisms  1209600 ;
         dbpprop:diameter       2 ;
@@ -684,10 +596,7 @@ dbpedia:Triangle_graph
         dbpprop:girth            3 ;
         dbpprop:radius           1 ;
         dbpprop:vertices         3 ;
-        dbpedia:chromaticNumber  3 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            0 ;
+        dbpprop:chromaticNumber  3 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.CompleteGraph(3)" .
 
@@ -793,10 +702,7 @@ dbpedia:Moser_spindle
         dbpprop:girth            3 ;
         dbpprop:radius           2 ;
         dbpprop:vertices         7 ;
-        dbpedia:chromaticNumber  4 ;
-        dbpedia:fractionalChromaticIndex
-                4.0 ;
-        dbpedia:genus            0 ;
+        dbpprop:chromaticNumber  4 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.MoserSpindle()" .
 
@@ -873,10 +779,8 @@ dbpedia:Petersen_graph
         dbpprop:girth            5 ;
         dbpprop:radius           2 ;
         dbpprop:vertices         10 ;
-        dbpedia:chromaticNumber  3 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            1 ;
+        dbpprop:chromaticNumber  3 ;
+	dbpprop:genus            1 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.PetersenGraph()" .
 
@@ -888,10 +792,8 @@ dbpedia:Franklin_graph
         dbpprop:girth            4 ;
         dbpprop:radius           3 ;
         dbpprop:vertices         12 ;
-        dbpedia:chromaticNumber  2 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            1 ;
+        dbpprop:chromaticNumber  2 ;
+	dbpprop:genus            1 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.FranklinGraph()" .
 
@@ -906,10 +808,7 @@ dbpedia:Bidiakis_cube
         dbpprop:girth            4 ;
         dbpprop:radius           3 ;
         dbpprop:vertices         12 ;
-        dbpedia:chromaticNumber  3 ;
-        dbpedia:fractionalChromaticIndex
-                3.0 ;
-        dbpedia:genus            0 ;
+        dbpprop:chromaticNumber  3 ;
         dcterms:subject          <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build               "graphs.BidiakisCube()" .
 

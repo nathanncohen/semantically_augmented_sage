@@ -8,7 +8,7 @@
 dbpedia:Butterfly_graph
     sage:build    "graphs.ButterflyGraph" .
 
-dbpedia:Blanuša_snarks
+<http://dbpedia.org/resource/Blanu%C5%A1a_snarks>
     sage:build    "graphs.BlanusaFirstSnarkGraph" .
 
 dbpedia:Clebsch_graph
@@ -17,7 +17,7 @@ dbpedia:Clebsch_graph
 dbpedia:Intersection_graph
     sage:build    "graphs.IntersectionGraph" .
 
-<http://dbpedia.org/resource/Brouwer–Haemers_graph>
+<http://dbpedia.org/resource/Brouwer%E2%80%93Haemers_graph>
     sage:build    "graphs.BrouwerHaemersGraph" .
 
 <http://dbpedia.org/resource/Biggs–Smith_graph>
@@ -41,7 +41,7 @@ dbpedia:Herschel_graph
 dbpedia:Circulant_graph
     sage:build    "graphs.CirculantGraph" .
 
-<http://dbpedia.org/resource/Tutte–Coxeter_graph>
+<http://dbpedia.org/resource/Tutte%E2%80%93Coxeter_graph>
     sage:build    "graphs.TutteCoxeterGraph" .
 
 dbpedia:Odd_graph
@@ -65,10 +65,10 @@ dbpedia:Generalized_Petersen_graph
 dbpedia:Grötzsch_graph
     sage:build    "graphs.GrotzschGraph" .
 
-dbpedia:Schläfli_graph
+<http://dbpedia.org/resource/Schl%C3%A4fli_graph>
     sage:build    "graphs.SchlaefliGraph" .
 
-dbpedia:Dürer_graph
+<http://dbpedia.org/resource/D%C3%BCrer_graph>
     sage:build    "graphs.DurerGraph" .
 
 dbpedia:120-cell
@@ -233,7 +233,7 @@ dbpedia:Heawood_graph
 dbpedia:Complete_graph
     sage:build    "graphs.CompleteGraph" .
 
-<http://dbpedia.org/resource/Hall–Janko_graph>
+<http://dbpedia.org/resource/Hall%E2%80%93Janko_graph>
     sage:build    "graphs.HallJankoGraph" .
 
 dbpedia:Hypercube_graph

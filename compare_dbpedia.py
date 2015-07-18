@@ -73,6 +73,8 @@ for (s,p,o) in local:
 #################################
 
 print "\n=== possible additions to dbpedia === \n"
-for (s,p,o) in local:
-    if 'sagemath.org' not in unicode(p) and (s,p,o) not in dbpedia:
-       print map(unicode,(s,p,o))
+_ = sorted([map(unicode,(s,p,o))
+            for (s,p,o) in local
+            if 'sagemath.org' not in unicode(p) and (s,p,o) not in dbpedia])
+for __ in _:
+    print __
