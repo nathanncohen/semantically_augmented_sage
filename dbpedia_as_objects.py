@@ -141,7 +141,7 @@ class DbpediaEntry:
             d[p].append(o)
             setattr(self,p,self._return_function(p))
 
-        for _,_,o in translation_db.triples((self._uriref,sagens.build,None)):
+        for _,_,o in translation_db.triples((self._uriref,sagens.function,None)):
             setattr(self,'sage', lambda : eval(o))
 
         self._d = d

@@ -6,319 +6,331 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 dbpedia:Butterfly_graph
-    sage:build    "graphs.ButterflyGraph" .
+    sage:function    "graphs.ButterflyGraph" .
 
 <http://dbpedia.org/resource/Blanu%C5%A1a_snarks>
-    sage:build    "graphs.BlanusaFirstSnarkGraph" .
+    sage:function    "graphs.BlanusaFirstSnarkGraph" .
 
 dbpedia:Clebsch_graph
-    sage:build    "graphs.ClebschGraph" .
+    sage:function    "graphs.ClebschGraph" .
 
 dbpedia:Intersection_graph
-    sage:build    "graphs.IntersectionGraph" .
+    sage:function    "graphs.IntersectionGraph" .
 
 <http://dbpedia.org/resource/Brouwer%E2%80%93Haemers_graph>
-    sage:build    "graphs.BrouwerHaemersGraph" .
+    sage:function    "graphs.BrouwerHaemersGraph" .
 
 <http://dbpedia.org/resource/Biggs–Smith_graph>
-    sage:build    "graphs.BiggsSmithGraph" .
+    sage:function    "graphs.BiggsSmithGraph" .
 
 dbpedia:Harborth_graph
-    sage:build    "graphs.HarborthGraph" .
+    sage:function    "graphs.HarborthGraph" .
 
 <http://dbpedia.org/resource/Barab%C3%A1si%E2%80%93Albert_model>
-    sage:build    "graphs.RandomBarabasiAlbert" .
+    sage:function    "graphs.RandomBarabasiAlbert" .
 
 dbpedia:Chvátal_graph
-    sage:build    "graphs.ChvatalGraph" .
-
-<http://dbpedia.org/resource/Ellingham–Horton_graph>
-    sage:build    "graphs.EllinghamHorton78Graph" , "graphs.EllinghamHorton54Graph" .
+    sage:function    "graphs.ChvatalGraph" .
 
 dbpedia:Herschel_graph
-    sage:build    "graphs.HerschelGraph" .
+    sage:function    "graphs.HerschelGraph" .
 
 dbpedia:Circulant_graph
-    sage:build    "graphs.CirculantGraph" .
+    sage:function    "graphs.CirculantGraph" .
 
 <http://dbpedia.org/resource/Tutte%E2%80%93Coxeter_graph>
-    sage:build    "graphs.TutteCoxeterGraph" .
+    sage:function    "graphs.TutteCoxeterGraph" .
 
 dbpedia:Odd_graph
-    sage:build    "graphs.OddGraph" .
+    sage:function    "graphs.OddGraph" .
 
 dbpedia:Bull_graph
-    sage:build    "graphs.BullGraph" .
+    sage:function    "graphs.BullGraph" .
 
 dbpedia:Truncated_icosidodecahedron
-    sage:build    "graphs.TruncatedIcosidodecahedralGraph" .
+    sage:function    "graphs.TruncatedIcosidodecahedralGraph" .
 
 dbpedia:Ljubljana_graph
-    sage:build    "graphs.LjubljanaGraph" .
+    sage:function    "graphs.LjubljanaGraph" .
 
 dbpedia:Double-star_snark
-    sage:build    "graphs.DoubleStarSnark" .
+    sage:function    "graphs.DoubleStarSnark" .
 
 dbpedia:Generalized_Petersen_graph
-    sage:build    "graphs.GeneralizedPetersenGraph" .
+    sage:function    "graphs.GeneralizedPetersenGraph" .
 
 dbpedia:Grötzsch_graph
-    sage:build    "graphs.GrotzschGraph" .
+    sage:function    "graphs.GrotzschGraph" .
 
 <http://dbpedia.org/resource/Schl%C3%A4fli_graph>
-    sage:build    "graphs.SchlaefliGraph" .
+    sage:function    "graphs.SchlaefliGraph" .
 
 <http://dbpedia.org/resource/D%C3%BCrer_graph>
-    sage:build    "graphs.DurerGraph" .
+    sage:function    "graphs.DurerGraph" .
 
 dbpedia:120-cell
-    sage:build    "graphs.Cell120" .
+    sage:function    "graphs.Cell120" .
 
 dbpedia:Horton_graph
-    sage:build    "graphs.HortonGraph" .
+    sage:function    "graphs.HortonGraph" .
 
 dbpedia:Interval_graph
-    sage:build    "graphs.IntervalGraph" .
+    sage:function    "graphs.IntervalGraph" .
 
 dbpedia:Diamond_graph
-    sage:build    "graphs.DiamondGraph" .
+    sage:function    "graphs.DiamondGraph" .
 
 dbpedia:Markström_graph
-    sage:build    "graphs.MarkstroemGraph" .
+    sage:function    "graphs.MarkstroemGraph" .
 
 dbpedia:Truncated_tetrahedron
-    sage:build    "graphs.TruncatedTetrahedralGraph" .
+    sage:function    "graphs.TruncatedTetrahedralGraph" .
 
 dbpedia:Dejter_graph
-    sage:build    "graphs.DejterGraph" .
+    sage:function    "graphs.DejterGraph" .
 
 dbpedia:Livingstone_graph
-    sage:build    "graphs.LivingstoneGraph" .
+    sage:function    "graphs.LivingstoneGraph" .
 
 dbpedia:Errera_graph
-    sage:build    "graphs.ErreraGraph" .
+    sage:function    "graphs.ErreraGraph" .
 
 <http://dbpedia.org/resource/Goldner–Harary_graph>
-    sage:build    "graphs.GoldnerHararyGraph" .
+    sage:function    "graphs.GoldnerHararyGraph" .
 
 <http://dbpedia.org/resource/Tietze's_graph>
-    sage:build    "graphs.TietzeGraph" .
+    sage:function    "graphs.TietzeGraph" .
 
 <http://dbpedia.org/resource/Hoffman–Singleton_graph>
-    sage:build    "graphs.HoffmanSingletonGraph" .
+    sage:function    "graphs.HoffmanSingletonGraph" .
 
 dbpedia:Local_McLaughlin_graph
-    sage:build    "graphs.LocalMcLaughlinGraph" .
+    sage:function    "graphs.LocalMcLaughlinGraph" .
 
 dbpedia:Perkel_graph
-    sage:build    "graphs.PerkelGraph" .
+    sage:function    "graphs.PerkelGraph" .
 
 dbpedia:Folkman_graph
-    sage:build    "graphs.FolkmanGraph" .
+    sage:function    "graphs.FolkmanGraph" .
 
 dbpedia:Brinkmann_graph
-    sage:build    "graphs.BrinkmannGraph" .
+    sage:function    "graphs.BrinkmannGraph" .
 
 dbpedia:Flower_snark
-    sage:build    "graphs.FlowerSnark" .
+    sage:function    "graphs.FlowerSnark" .
 
 dbpedia:Octahedron
-    sage:build    "graphs.OctahedralGraph" .
+    sage:function    "graphs.OctahedralGraph" .
 
 dbpedia:Wagner_graph
-    sage:build    "graphs.WagnerGraph" .
+    sage:function    "graphs.WagnerGraph" .
 
 dbpedia:LCF_notation
-    sage:build    "graphs.LCFGraph" .
+    sage:function    "graphs.LCFGraph" .
 
 dbpedia:Order-zero_graph
-    sage:build    "graphs.EmptyGraph" .
+    sage:function    "graphs.EmptyGraph" .
 
 dbpedia:Thomsen_graph
-    sage:build    "graphs.ThomsenGraph" .
+    sage:function    "graphs.ThomsenGraph" .
 
 dbpedia:Holt_graph
-    sage:build    "graphs.HoltGraph" .
+    sage:function    "graphs.HoltGraph" .
 
 dbpedia:Kneser_graph
-    sage:build    "graphs.KneserGraph" .
+    sage:function    "graphs.KneserGraph" .
 
 <http://dbpedia.org/resource/Erd%C5%91s%E2%80%93R%C3%A9nyi_model>
-    sage:build    "graphs.RandomGNP" .
+    sage:function    "graphs.RandomGNP" .
 
 dbpedia:Balaban_10-cage
-    sage:build    "graphs.Balaban10Cage" .
+    sage:function    "graphs.Balaban10Cage" .
 
 <http://dbpedia.org/resource/Higman–Sims_graph>
-    sage:build    "graphs.HigmanSimsGraph" .
+    sage:function    "graphs.HigmanSimsGraph" .
 
 dbpedia:Utility_graph
-    sage:build    "graphs.ThomsenGraph" .
+    sage:function    "graphs.ThomsenGraph" .
 
 dbpedia:Dyck_graph
-    sage:build    "graphs.DyckGraph" .
+    sage:function    "graphs.DyckGraph" .
 
 dbpedia:Paley_graph
-    sage:build    "graphs.PaleyGraph" .
+    sage:function    "graphs.PaleyGraph" .
 
 dbpedia:Foster_graph
-    sage:build    "graphs.FosterGraph" .
+    sage:function    "graphs.FosterGraph" .
 
 dbpedia:F26A_graph
-    sage:build    "graphs.F26AGraph" .
+    sage:function    "graphs.F26AGraph" .
 
 dbpedia:Dodecahedron
-    sage:build    "graphs.DodecahedralGraph" .
+    sage:function    "graphs.DodecahedralGraph" .
 
 dbpedia:Ladder_graph
-    sage:build    "graphs.LadderGraph" .
+    sage:function    "graphs.LadderGraph" .
 
 dbpedia:Folded_cube_graph
-    sage:build    "graphs.FoldedCubeGraph" .
+    sage:function    "graphs.FoldedCubeGraph" .
 
 dbpedia:Tutte_12-cage
-    sage:build    "graphs.Tutte12Cage" .
+    sage:function    "graphs.Tutte12Cage" .
 
 dbpedia:Cycle_graph
-    sage:build    "graphs.CycleGraph" .
+    sage:function    "graphs.CycleGraph" .
 
 dbpedia:Friendship_graph
-    sage:build    "graphs.FriendshipGraph" .
+    sage:function    "graphs.FriendshipGraph" .
 
 dbpedia:Buckminsterfullerene
-    sage:build    "graphs.BuckyBall" .
+    sage:function    "graphs.BuckyBall" .
 
 dbpedia:Petersen_family
-    sage:build    "graphs.petersen_family" .
+    sage:function    "graphs.petersen_family" .
 
 dbpedia:Pappus_graph
-    sage:build    "graphs.PappusGraph" .
+    sage:function    "graphs.PappusGraph" .
 
 dbpedia:Wheel_graph
-    sage:build    "graphs.WheelGraph" .
+    sage:function    "graphs.WheelGraph" .
 
 dbpedia:Gray_graph
-    sage:build    "graphs.GrayGraph" .
+    sage:function    "graphs.GrayGraph" .
 
 <http://dbpedia.org/resource/Möbius–Kantor_graph>
-    sage:build    "graphs.MoebiusKantorGraph" .
+    sage:function    "graphs.MoebiusKantorGraph" .
 
 dbpedia:Planar_graph
-    sage:build    "graphs.planar_graphs" .
+    sage:function    "graphs.planar_graphs" .
 
 dbpedia:Mycielskian
-    sage:build    "graphs.MycielskiGraph" .
-
-dbpedia:Klein_graphs
-    sage:build    "graphs.Klein3RegularGraph" , "graphs.Klein7RegularGraph" .
+    sage:function    "graphs.MycielskiGraph" .
 
 dbpedia:Robertson_graph
-    sage:build    "graphs.RobertsonGraph" .
+    sage:function    "graphs.RobertsonGraph" .
 
 <http://dbpedia.org/resource/Star_(graph_theory)>
-    sage:build    "graphs.StarGraph" .
+    sage:function    "graphs.StarGraph" .
 
 dbpedia:Frucht_graph
-    sage:build    "graphs.FruchtGraph" .
+    sage:function    "graphs.FruchtGraph" .
 
 dbpedia:Balaban_11-cage
-    sage:build    "graphs.Balaban11Cage" .
+    sage:function    "graphs.Balaban11Cage" .
 
 dbpedia:Coxeter_graph
-    sage:build    "graphs.CoxeterGraph" .
+    sage:function    "graphs.CoxeterGraph" .
 
 dbpedia:Heawood_graph
-    sage:build    "graphs.HeawoodGraph" .
+    sage:function    "graphs.HeawoodGraph" .
 
 dbpedia:Complete_graph
-    sage:build    "graphs.CompleteGraph" .
+    sage:function    "graphs.CompleteGraph" .
 
 <http://dbpedia.org/resource/Hall%E2%80%93Janko_graph>
-    sage:build    "graphs.HallJankoGraph" .
+    sage:function    "graphs.HallJankoGraph" .
 
 dbpedia:Hypercube_graph
-    sage:build    "graphs.CubeGraph" .
+    sage:function    "graphs.CubeGraph" .
 
 dbpedia:McLaughlin_graph
-    sage:build    "graphs.McLaughlinGraph" .
+    sage:function    "graphs.McLaughlinGraph" .
 
 dbpedia:Harries_graph
-    sage:build    "graphs.HarriesGraph" .
+    sage:function    "graphs.HarriesGraph" .
 
 dbpedia:Desargues_graph
-    sage:build    "graphs.DesarguesGraph" .
+    sage:function    "graphs.DesarguesGraph" .
 
 dbpedia:Meredith_graph
-    sage:build    "graphs.MeredithGraph" .
-
-dbpedia:Triangle_graph
-    sage:build    "graphs.CompleteGraph(3)" .
+    sage:function    "graphs.MeredithGraph" .
 
 dbpedia:Watkins_snark
-    sage:build    "graphs.WatkinsSnarkGraph" .
+    sage:function    "graphs.WatkinsSnarkGraph" .
 
 dbpedia:Gosset_graph
-    sage:build    "graphs.GossetGraph" .
+    sage:function    "graphs.GossetGraph" .
 
 dbpedia:Nauru_graph
-    sage:build    "graphs.NauruGraph" .
+    sage:function    "graphs.NauruGraph" .
 
 dbpedia:Icosahedron
-    sage:build    "graphs.IcosahedralGraph" .
+    sage:function    "graphs.IcosahedralGraph" .
 
 dbpedia:Johnson_graph
-    sage:build    "graphs.JohnsonGraph" .
+    sage:function    "graphs.JohnsonGraph" .
 
 <http://dbpedia.org/resource/Path_(graph_theory)>
-    sage:build    "graphs.PathGraph" .
+    sage:function    "graphs.PathGraph" .
 
 dbpedia:Hoffman_graph
-    sage:build    "graphs.HoffmanGraph" .
+    sage:function    "graphs.HoffmanGraph" .
 
 dbpedia:Moser_spindle
-    sage:build    "graphs.MoserSpindle" .
+    sage:function    "graphs.MoserSpindle" .
 
 dbpedia:Tetrahedron
-    sage:build    "graphs.TetrahedralGraph" .
+    sage:function    "graphs.TetrahedralGraph" .
 
 dbpedia:Tutte_graph
-    sage:build    "graphs.TutteGraph" .
+    sage:function    "graphs.TutteGraph" .
 
 dbpedia:Permutation_graph
-    sage:build    "graphs.PermutationGraph" .
+    sage:function    "graphs.PermutationGraph" .
 
 <http://dbpedia.org/resource/Harries–Wong_graph>
-    sage:build    "graphs.HarriesWongGraph" .
+    sage:function    "graphs.HarriesWongGraph" .
 
 dbpedia:Szekeres_snark
-    sage:build    "graphs.SzekeresSnarkGraph" .
+    sage:function    "graphs.SzekeresSnarkGraph" .
 
 dbpedia:Gewirtz_graph
-    sage:build    "graphs.SimsGewirtzGraph" .
+    sage:function    "graphs.SimsGewirtzGraph" .
 
 dbpedia:Fullerene
-    sage:build    "graphs.fullerenes" .
+    sage:function    "graphs.fullerenes" .
 
 dbpedia:Complete_bipartite_graph
-    sage:build    "graphs.CompleteBipartiteGraph" .
+    sage:function    "graphs.CompleteBipartiteGraph" .
 
 dbpedia:600-cell
-    sage:build    "graphs.Cell600" .
+    sage:function    "graphs.Cell600" .
 
 dbpedia:McGee_graph
-    sage:build    "graphs.McGeeGraph" .
+    sage:function    "graphs.McGeeGraph" .
 
 dbpedia:Petersen_graph
-    sage:build    "graphs.PetersenGraph" .
+    sage:function    "graphs.PetersenGraph" .
 
 dbpedia:Franklin_graph
-    sage:build    "graphs.FranklinGraph" .
+    sage:function    "graphs.FranklinGraph" .
 
 <http://dbpedia.org/resource/Tree_(graph_theory)>
-    sage:build    "graphs.trees" .
+    sage:function    "graphs.trees" .
 
 dbpedia:Bidiakis_cube
-    sage:build    "graphs.BidiakisCube" .
+    sage:function    "graphs.BidiakisCube" .
 
 dbpedia:Shrikhande_graph
-    sage:build    "graphs.ShrikhandeGraph" .
+    sage:function    "graphs.ShrikhandeGraph" .
+
+dbpedia:Wells_graph
+    sage:function    "graphs.WellsGraph" .
+
+dbpedia:Cameron_graph
+    sage:function    "graphs.CameronGraph" .
+
+dbpedia:Poussin_graph
+    sage:function    "graphs.PoussinGraph" .
+
+dbpedia:Sousselier_graph
+    sage:function    "graphs.SousselierGraph" .
+
+dbpedia:Sylvester_graph
+    sage:function    "graphs.SylvesterGraph" .
+
+<http://dbpedia.org/resource/Wiener%E2%80%93Araya_graph>
+    sage:function    "graphs.WienerArayaGraph" .
+
+<http://dbpedia.org/resource/Chang_graphs>
+    sage:function    "graphs.chang_graphs" .

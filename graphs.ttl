@@ -822,3 +822,157 @@ dbpedia:Shrikhande_graph
         dbpprop:vertices       16 ;
         dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
         sage:build             "graphs.ShrikhandeGraph()" .
+
+dbpedia:Wells_graph
+        rdfs:label             "Wells graph"@en ;
+        dbpprop:automorphisms  1920 ;
+        dbpprop:diameter       4 ;
+        dbpprop:edges          80 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         4 ;
+        dbpprop:vertices       32  ;
+        dbpprop:chromaticNumber  4 ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+        sage:build             "graphs.WellsGraph()" .
+
+dbpedia:Cameron_graph
+        rdfs:label             "Cameron graph"@en ;
+        dbpprop:automorphisms  887040 ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          3465 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       231  ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+        sage:build             "graphs.CameronGraph()" .
+
+dbpedia:Poussin_graph
+        rdfs:label             "Poussin graph"@en ;
+        dbpprop:automorphisms  2 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          39 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       15  ;
+        dbpprop:chromaticNumber  4 ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+        sage:build             "graphs.PoussinGraph()" .
+
+dbpedia:Sousselier_graph
+        rdfs:label             "Sousselier graph"@en ;
+        dbpprop:automorphisms  2 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          27 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       16  ;
+        dbpprop:chromaticNumber  3 ;
+        dbpprop:genus            2 ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+        sage:build             "graphs.SousselierGraph()" .
+
+dbpedia:Sylvester_graph
+        rdfs:label             "Sylvester graph"@en ;
+        dbpprop:automorphisms  1440 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          90 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       36  ;
+        dbpprop:chromaticNumber  4 ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+        sage:build             "graphs.SylvesterGraph()" .
+
+dbpedia:Tetrahedron
+        rdfs:label             "Tetrahedron"@en ;
+        dbpprop:automorphisms  24 ;
+        dbpprop:diameter       1 ;
+        dbpprop:edges          6 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         1 ;
+        dbpprop:vertices       4  ;
+        dbpprop:chromaticNumber  4 ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+        sage:build             "graphs.CompleteGraph(4)" .
+
+dbpedia:Dodecahedron
+        rdfs:label             "Dodecahedron"@en ;
+        dbpprop:automorphisms  120 ;
+        dbpprop:diameter       5 ;
+        dbpprop:edges          30 ;
+        dbpprop:girth          5 ;
+        dbpprop:radius         5 ;
+        dbpprop:vertices       20  ;
+        dbpprop:chromaticNumber  3 ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+        sage:build             "graphs.DodecahedralGraph()" .
+
+<http://dbpedia.org/resource/Ellingham%E2%80%93Horton_graph>
+        rdfs:label             "Ellingham–Horton graph"@en ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+        dbpprop:automorphisms  32 ;
+        dbpprop:diameter       10 ;
+        dbpprop:edges          81 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         9 ;
+        dbpprop:vertices       54  ;
+        dbpprop:chromaticNumber  2 ;
+        sage:build             "graphs.EllinghamHorton54Graph()" ;
+
+        dbpprop:automorphisms  16 ;
+        dbpprop:diameter       13 ;
+        dbpprop:edges          117 ;
+        dbpprop:girth          6 ;
+        dbpprop:radius         7 ;
+        dbpprop:vertices       78  ;
+        dbpprop:chromaticNumber  2 ;
+        sage:build             "graphs.EllinghamHorton78Graph()" .
+
+<http://dbpedia.org/resource/Wiener%E2%80%93Araya_graph>
+        rdfs:label             "Wiener–Araya graph"@en ;
+        dbpprop:automorphisms  2 ;
+        dbpprop:diameter       7 ;
+        dbpprop:edges          67 ;
+        dbpprop:girth          4 ;
+        dbpprop:radius         5 ;
+        dbpprop:vertices       42  ;
+        dbpprop:chromaticNumber  3 ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+        sage:build             "graphs.WienerArayaGraph()" .
+
+<http://dbpedia.org/resource/Klein_graphs>
+        rdfs:label             "Klein graphs"@en ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+
+	dbpprop:automorphisms  336 ;
+        dbpprop:diameter       6 ;
+        dbpprop:edges          84 ;
+        dbpprop:girth          7 ;
+        dbpprop:radius         6 ;
+        dbpprop:vertices       56  ;
+        dbpprop:chromaticNumber  3 ;
+        sage:build             "graphs.Klein3RegularGraph()" ;
+
+        dbpprop:automorphisms  336 ;
+        dbpprop:diameter       3 ;
+        dbpprop:edges          84 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         3 ;
+        dbpprop:vertices       24  ;
+        dbpprop:chromaticNumber  4 ;
+        sage:build             "graphs.Klein7RegularGraph()" .
+
+<http://dbpedia.org/resource/Chang_graphs>
+        rdfs:label             "Chang graphs"@en ;
+        dcterms:subject        <http://dbpedia.org/resource/Category:Individual_graphs> ;
+        dbpprop:diameter       2 ;
+        dbpprop:edges          168 ;
+        dbpprop:girth          3 ;
+        dbpprop:radius         2 ;
+        dbpprop:vertices       28  ;
+        dbpprop:automorphisms  96 ;
+        dbpprop:automorphisms  360 ;
+        dbpprop:automorphisms  384 ;
+        sage:build             "graphs.chang_graphs()[0]" ;
+        sage:build             "graphs.chang_graphs()[1]" ;
+        sage:build             "graphs.chang_graphs()[2]" .
